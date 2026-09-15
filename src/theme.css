@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "DS System";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./assets/system-Ch4OL1Uq.ttf") format("truetype");
+}
+
+:root {
+  --ds-font: "DS System", Tahoma, sans-serif;
+  --ds-font-size: 14px;
+  --dsi-ui-scale: 1;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #282828;
+  font-family: var(--ds-font);
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid #0050e8;
+  outline-offset: 3px;
+}

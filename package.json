@@ -1,0 +1,35 @@
+{
+  "name": "dsi-ui",
+  "version": "1.0.0",
+  "description": "Framework-independent DS and DSi-inspired web components.",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "src",
+    "demo",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": {
+      "import": "./src/dsi-ui.js",
+      "default": "./src/dsi-ui.js"
+    },
+    "./theme.css": "./src/theme.css"
+  },
+  "keywords": [
+    "web-components",
+    "custom-elements",
+    "nintendo-ds",
+    "dsi",
+    "ui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doriangironde/dsi-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/doriangironde/dsi-ui/issues"
+  },
+  "homepage": "https://github.com/doriangironde/dsi-ui"
+}
