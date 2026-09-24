@@ -4,6 +4,8 @@ Small, framework-independent web components inspired by the Nintendo DS and DSi 
 
 No framework or runtime dependency is required. Import the module once, import the theme, then use the custom elements in HTML.
 
+Source, examples, and the full component list are available on [GitHub](https://github.com/doriangironde/dsi-ui).
+
 ## Install from GitHub
 
 ```sh
